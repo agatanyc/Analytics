@@ -2,14 +2,14 @@
 
 from flask import Flask, views
 import statsd
-import c
+import stat_server
 
 def main():
     app = Flask("__name__")
 
     @app.route("/page/<id>")
     def display_message(id):
-        c.users_stat()
+        stat_server.users_stat()
         return "Page ID is " + str(id) + "!"
 
     app.debug = True

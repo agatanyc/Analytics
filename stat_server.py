@@ -6,4 +6,4 @@ def users_stat():
                           prefix = None,
                           maxudpsize = 512)
 
-    statsd.incr('users', count=100)
+    statsd.incr('people', count=1)

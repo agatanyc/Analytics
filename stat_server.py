@@ -6,4 +6,4 @@ def users_stat():
                           prefix = None,
                           maxudpsize = 512)
 
-    statsd.incr('people', count=1)
+    statsd.incr('impressions', count=1)

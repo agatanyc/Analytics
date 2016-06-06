@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
 
-This project defines an HTTP server that counts number of users of given 
+This project defines an HTTP server that counts the number of users of a given 
 site.
 
 ## Dependencies

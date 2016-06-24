@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
 
-This project defines an HTTP server that counts the number of users of a given 
+This project defines an HTTP server that lets you collect stats of a given 
 site.
 
 ## Dependencies
@@ -32,3 +32,5 @@ For development in separate terminals run:
 For sending multiple HTTP requests run:
 
     ab -n 10 -c 10 http://127.0.0.1:5000/page/49
+
+* To view graphs in a browser run localhost80:80

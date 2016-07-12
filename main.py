@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-from flask import Flask, views
+from flask import Flask, views, request
+
 import statsd
 import stat_server
 
